@@ -1,2 +1,5 @@
-Proprietary – all rights reserved.
-Unauthorized use, reproduction, or distribution of this code is prohibited.
+Proprietary – All Rights Reserved
+
+This repository and its contents, including code, algorithms, designs, and documentation, are the exclusive property of Loretta Chapman. 
+
+Unauthorized use, copying, modification, distribution, or commercial exploitation of any part of this repository is strictly prohibited without express written permission from the owner.
