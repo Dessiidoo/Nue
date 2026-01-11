@@ -12,7 +12,7 @@ st.write("Real-time quantum entropy perturbs spike timing in a neuromorphic syst
 # IBM Quantum API Key
 # --------------------------
 api_key = st.text_inputXVBHS5-G8Df0coEb7TAXTSUFV6kLln0NVCPXtL7D2eak
-, type="password")
+type="password")
 
 if api_key:
     IBMQ.save_account(api_key, overwrite=True)
