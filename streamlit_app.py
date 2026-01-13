@@ -1,4 +1,4 @@
-# app.py
+# streamlit_app.py
 import streamlit as st
 from qiskit import IBMQ, QuantumCircuit, Aer, execute
 import numpy as np
@@ -11,8 +11,7 @@ st.write("Real-time quantum entropy perturbs spike timing in a neuromorphic syst
 # --------------------------
 # IBM Quantum API Key
 # --------------------------
-api_key = st.text_inputXVBHS5-G8Df0coEb7TAXTSUFV6kLln0NVCPXtL7D2eak
-type="password"
+api_key = st.text_input("IBM Quantum API Key", type="password")
 
 if api_key:
     IBMQ.save_account(api_key, overwrite=True)
@@ -59,5 +58,6 @@ if api_key:
     ax.set_xlabel("Time (s)")
     ax.legend()
     st.pyplot(fig)
+
 else:
     st.info("Enter your IBM Quantum API key to start the demo.")
